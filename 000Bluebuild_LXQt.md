@@ -57,7 +57,7 @@ rm cosign.key
 # 在虚拟机中执行“重基（Rebase）”
 注意：一定要加上 unsigned 前缀，因为我们使用的是自定义签名
 ```
-sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/edwardwoodhub/my-custom-budgie-os:latest
+sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/edwardwoodhub/my-lxqt-vm:latest
 
 # 关键的“对暗号”——创建用户
 如果当前用户不是 edward，请创建一个：
