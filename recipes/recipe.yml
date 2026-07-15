@@ -65,6 +65,8 @@ modules:
       - pcmanfm-qt
       - qterminal
       - labwc
+      - lxqt-wayland-session
+      - lxqt-labwc-session
       - adwaita-cursor-theme
       # --- 修复工具补丁 ---
       - dbus-x11                  # 提供 dbus-update-activation-environment (备用)
