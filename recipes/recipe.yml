@@ -1,5 +1,5 @@
 name: my-lxqt-vm
-description: Fedora 44 + Budgie 10.10 (彻底修复 VNC 与 Files)
+description: Fedora 44 + LXQt
 base-image: ghcr.io/ublue-os/base-main
 image-version: 44
 
@@ -50,8 +50,20 @@ modules:
       #- lightdm
       #- lightdm-gtk
       - polkit
-      - budgie-desktop
-      - budgie-control-center
+      #- budgie-desktop
+      #- budgie-control-center
+      - lxqt-about
+      - lxqt-config
+      - lxqt-globalkeys
+      - lxqt-notificationd
+      - lxqt-openssh-askpass
+      - lxqt-panel
+      - lxqt-policykit
+      - lxqt-qtplugin
+      - lxqt-runner
+      - lxqt-session
+      - pcmanfm-qt
+      - qterminal
       - labwc
       - adwaita-cursor-theme
       # --- 修复工具补丁 ---
