@@ -52,6 +52,10 @@ modules:
       - polkit
       #- budgie-desktop
       #- budgie-control-center
+      - lxqt-themes
+      - lxqt-themes-fedora
+      - adwaita-icon-theme
+      - hicolor-icon-theme
       - lxqt-about
       - lxqt-config
       - lxqt-globalkeys
@@ -71,6 +75,8 @@ modules:
       # --- 修复工具补丁 ---
       - dbus-x11                  # 提供 dbus-update-activation-environment (备用)
       - xdg-desktop-portal-gtk    # 修复窗口弹出
+      - xdg-user-dirs
+      - xdg-desktop-portal
       # --- 换装更稳的文件管理器 ---
       - thunar
       - thunar-archive-plugin
