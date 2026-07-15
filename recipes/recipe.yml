@@ -72,6 +72,7 @@ modules:
       - lxqt-wayland-session
       - lxqt-labwc-session
       - adwaita-cursor-theme
+      - screengrab
       # --- 修复工具补丁 ---
       - dbus-x11                  # 提供 dbus-update-activation-environment (备用)
       - xdg-desktop-portal-gtk    # 修复窗口弹出
